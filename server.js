@@ -7,12 +7,14 @@ app.get('/', (req, res) => {
     <h1 style="color:#00d4aa;font-family:Arial;text-align:center;margin-top:100px">
       CI/CD + Docker = SUCCESS
     </h1>
-    <h2 style="text-align:center">Deployed automatically by GitHub Actions</h2>
+    <h2 style="text-align:center">Deployed automatically by Railway + GitHub</h2>
     <p style="text-align:center;font-size:18px">
       Last deploy: ${new Date().toLocaleString('en-EG')} (Cairo Time)
     </p>
-    <p style="text-align:center">Made with love by Ahmed Amr</p>
+    <p style="text-align:center;font-size:20px">Made with love by Ahmed Amr</p>
   `);
 });
 
-app.listen(port, () => console.log(\`Server running on port \${port}\`));
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
