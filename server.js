@@ -1,4 +1,5 @@
 //server.js
+///jdjddkdkdk
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
@@ -12,7 +13,7 @@ app.get('/', (req, res) => {
     <p style="text-align:center;font-size:18px">
       Last deploy: ${new Date().toLocaleString('en-EG')} (Cairo Time)
     </p>
-    <p style="text-align:center;font-size:20px">Made with love by Ahmed Amr - Mouayed Amr - Mohamed Yasser - Omar Ibrahim - Youssef Hisham </p>
+    <p style="text-align:center;font-size:20px">Made with love by Ahmed Amr - Mouayed Amr - Mohamed Yasser - Omar Ibrahim  </p>
   `);
 });
 
